@@ -1,0 +1,56 @@
+{
+	"TechILearnedThisYear" : [
+		{
+			"Backend": {
+				"Transpiler" : "Babel",
+				"Server" : "Express.js",
+				"Templating engine" : "PUG.js",
+				"JavaScript library" : ["Lodash", "Underscore"]
+			} 
+		},
+		{
+			"Frontend": {
+				"React" : ["Class components", "Functional components", "Props", "State", "useState, useEffect Hooks", "setState and Component Lifecycle Methods"],
+				"Redux" : ["Store", "Actions", "Reducer"],
+				"Styles" : "scss",
+				"JavaScript library" : ["Lodash", "Underscore"]
+			} 
+		},
+		{
+			"Database": {
+				"MongoDB" : ["Compass", "CRUD Operations", "Web Clusters", "Mongoose"],
+			} 
+		},
+		{
+			"Collaboration Tools" : {
+				"Version control" : ["", "Bitbucket"]
+			}
+		}
+	],
+	"TechIWillLearneNextYear" : [
+		{
+			"Backend": {
+				"authentication and authorization" : "auth0",
+				"React functional components" : "",
+				"react functional components" : "",
+			} 
+		},
+		{
+			"Frontend": {
+				"Forms" : ["Formik"," Yup"],
+				"Test" : ["husky", "jest", "enzyme"],
+				"HTTP client" : "Axios",
+				"React" : ["React Material Web Components", "PropTypes"],
+				"Redux" : "Redux Thunk",
+				"JavaScript library" : ["Lodash", "Underscore"]
+			} 
+		},
+		{
+			"Database": {
+				"React class components" : "",
+				"React functional components" : "",
+				"Props and State" : "",
+			} 
+		}
+	]
+}
