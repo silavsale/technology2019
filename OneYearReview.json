@@ -3,27 +3,29 @@
 		{
 			"Backend": {
 				"Transpiler" : "Babel",
-				"Server" : "Express.js",
+				"Server" : ["Express.js", "NODE.js Environment Variables", "Node modules"],
 				"Templating engine" : "PUG.js",
-				"JavaScript library" : ["Lodash", "Underscore"]
+				"JavaScript" : ["Lodash library", "Underscore library", "Async functions"]
 			} 
 		},
 		{
 			"Frontend": {
-				"React" : ["Class components", "Functional components", "Props", "State", "useState, useEffect Hooks", "setState and Component Lifecycle Methods"],
-				"Redux" : ["Store", "Actions", "Reducer"],
-				"Styles" : "scss",
-				"JavaScript library" : ["Lodash", "Underscore"]
-			} 
+				"React" : ["Class components", "Functional components", "React Router", "Props", "State", "useState, useEffect Hooks", "setState and Component Lifecycle Methods", "Error Boundaries", "Higher Order Components"],
+				"State Management" : ["Redux Store", "Redux Actions", "Redux Reducer"],
+				"Styling" : "SASS",
+				"JavaScript" : ["Lodash", "Underscore", "DOM"]
+			}
 		},
 		{
 			"Database": {
-				"MongoDB" : ["Compass", "CRUD Operations", "Web Clusters", "Mongoose"],
+				"MongoDB" : ["Compass", "CRUD Operations", "Web Clusters", "Mongoose"]
 			} 
 		},
 		{
-			"Collaboration Tools" : {
-				"Version control" : ["", "Bitbucket"]
+			"Other Tools" : {
+				"Version control" : ["Gitlab", "Bitbucket"],
+				"Other" : ["basic Regex", "RESTful API"],
+				"Cloud platforms" : "Heroku"
 			}
 		}
 	],
@@ -31,8 +33,7 @@
 		{
 			"Backend": {
 				"authentication and authorization" : "auth0",
-				"React functional components" : "",
-				"react functional components" : "",
+				"server" : ["Middleware", "HTTP/HTTPS", "SSH"]
 			} 
 		},
 		{
@@ -40,17 +41,22 @@
 				"Forms" : ["Formik"," Yup"],
 				"Test" : ["husky", "jest", "enzyme"],
 				"HTTP client" : "Axios",
-				"React" : ["React Material Web Components", "PropTypes"],
-				"Redux" : "Redux Thunk",
-				"JavaScript library" : ["Lodash", "Underscore"]
+				"React" : ["React i18Next", "React Material Web Components", "PropTypes", "Refs", "Portals", "Custom Hooks", "useMemo", "useRef", "useContext"],
+				"State Management" : ["Redux Thunk", "Apollo Client"],
+				"JavaScript" : ["Firbase", "TypeScript", "Webpack"],
+				"Styling" : ["CSS Grid", "PostCSS", "Less"]
 			} 
 		},
 		{
 			"Database": {
-				"React class components" : "",
-				"React functional components" : "",
-				"Props and State" : "",
+				"React class components" : "GraphQL"
 			} 
+		},
+		{
+			"Other Tools" : {
+				"Other" : ["intermediate Regex"],
+				"Cloud platforms" : ["Netlify", "Amazon Web Services", "Salesforce"]
+			}
 		}
 	]
 }
